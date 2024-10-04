@@ -1,0 +1,382 @@
+.best_places,
+.cuisines_places,
+.near_by_places,
+.username {
+    font-weight: 800;
+    font-size: 24px;
+    font-family: Gilroy;
+}
+
+.food-items {
+    width: auto;
+}
+
+.food-row {
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.food-row .row {
+    max-width: max-content;
+    width: auto;
+    gap: 10px;
+}
+
+.best_places,
+.username,
+.cuisines_places,
+.near_by_places {
+    margin-bottom: 15px;
+}
+
+.card-img-top {
+    border-radius: 15px;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.container-padding {
+    padding-top: 50px;
+}
+
+.card-row .col-xl-4 {
+    margin-bottom: 20px;
+}
+
+.card-row {
+    flex-direction: row;
+    width: auto !important;
+    max-width: max-content;
+}
+a{
+    text-decoration: none;
+}
+
+.card-row .d-flex {
+    width: auto;
+}
+
+.cards_row {
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.card-row2 {
+    justify-content: center;
+    flex-direction: row;
+    display: contents;
+}
+
+.card-time,
+.card-name {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-address,
+.places a {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 2px;
+    padding-right: 2px;
+    line-height: normal;
+}
+
+.list-options {
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 44px;
+    overflow-x: auto !important;
+    margin-bottom: 3px;
+}
+.food-items .food-items-img {
+    width: 120px;
+    border-radius: 60px;
+    height: 110px;
+}
+.food-row .food-items a {
+    text-decoration: none;
+    color: rgb(2 6 12 / 60%);
+    text-align: center;
+}
+
+.dropdown-menu {
+    border-radius: 20px;
+}
+
+.dropdown-toggle,
+.filter-button {
+    border: none;
+    background-color: transparent;
+}
+
+.sticky_container {
+    background-color: white;
+    
+  
+}
+
+.clear-button {
+    background-color: white;
+
+    border: none;
+    font-family: Gilroy_Bold;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(2, 6, 12, 0.3);
+}
+
+.sorting-option {
+    box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+    font-size: 14px;
+    align-content: center;
+    color: black !important;
+    height: auto;
+    font-weight: 500 !important;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sorting-option .dropdown .btn,
+.sorting-option .filter-button {
+    height: auto;
+    align-content: center !important;
+    font-size: 14px;
+
+    font-weight: 500 !important;
+}
+
+.sorting-options .col-6 {
+    margin-bottom: 10px;
+}
+
+.sorting-options {
+    margin-top: 8px;
+    max-width: max-content !important;
+    margin-bottom: -19px;
+    flex-wrap: inherit;
+    margin-left:0px;
+    gap: 20px;
+}
+
+.hidden-list-items {
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 14px;
+
+    line-height: 31.1px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+#itemList li {
+    font-family: Gilroy_Bold;
+    font-weight: 700;
+    font-size: 18px;
+
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+/* .list-modal {
+
+        height: 30px;
+    } */
+
+.modal-body ul {
+    list-style: none;
+    text-align: start;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.modal2-body {
+    display: contents;
+}
+
+.modal-body li {
+    padding-bottom: 20px;
+}
+
+.btn {
+    margin-top: -7px;
+}
+
+/* .list-dropdown {
+        height: 30px;
+    } */
+
+.card-img-top {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+}
+
+.card-badge {
+    position: absolute;
+    background-image: linear-gradient(
+        277.71deg,
+        rgb(237, 69, 109) 7.8%,
+        rgb(243, 111, 69) 83.03%
+    );
+    color: white;
+    margin-top: 6px;
+    margin-left: -5px;
+    width: 115px;
+    height: 32px;
+    border-radius: 7px;
+    align-content: center;
+
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.card-text {
+    position: absolute;
+    font-family: ProximaNovaCond_Black;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 172px;
+    margin-left: 5px;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.bi-star-fill {
+    fill: white;
+    height: 14px;
+    margin-top: -4px;
+    margin-right: 4px;
+
+    background-color: green;
+    border-radius: 50px;
+}
+
+.sorting-option {
+    width: auto;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.hidden-list-items {
+    text-align: start;
+}
+
+.modal-foot {
+    margin-top: 388px;
+    margin-left: 0px;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 4px 16px rgba(12, 0, 0, 0.3);
+    background-color: white;
+}
+
+.apply-button {
+    background-color: orangered;
+    color: white;
+    font-family: Gilroy_Bold;
+    font-weight: 700;
+    font-size: 18px;
+    width: 160px;
+}
+
+.places a {
+    height: 53px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    padding-top: 9px;
+    text-decoration: none;
+    color: rgb(2 6 12 / 75%);
+}
+
+.places button {
+    height: 53px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    padding-top: 9px;
+     
+    background-color: white;
+    padding-bottom: 14px;
+}
+
+.search_for a {
+    color: rgb(2 6 12 / 45%);
+    text-decoration: none;
+}
+
+.search_for {
+    width: auto;
+    align-content: center;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 245);
+
+    right: 5px;
+
+    font-size: 18px;
+    height: auto;
+    display: none;
+    cursor: pointer;
+}
+
+.places-container,
+.cuisines-container,
+.near_by_container {
+    margin-top: 55px;
+}
+
+.places-container,
+.cuisines-container,
+.near_by_container .row {
+    margin-bottom: 20px;
+}
+ 
+
+ 
+.scroll-btn {
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    width: 29px;
+    height: 30px;
+    margin-top: 5px;
+}
+.scroll_arrows {
+    height: 10px;
+}
+.username,
+.scroll-btn-row {
+    width: auto;
+}
+.modal {
+    z-index: 1050 !important;
+}
+
+.near_by_container a {
+    width: 650px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .card-text {
+        font-size: 19px;
+        
+    }
+    .card-row2 .card {
+        width:auto !important;
+    }
+}

@@ -1,0 +1,243 @@
+.inner-text {
+    font-size: 18px;
+    color: white;
+}
+.about_swiggy {
+    font-size: 48px;
+    margin-top: 75px;
+    color: white;
+    font-weight: 700;
+}
+.first_container .col-xl-6 {
+    text-align: center;
+}
+.first_container {
+    background-color: orangered;
+}
+.headings {
+    font-size: 30px;
+    font-weight: 700;
+}
+.headings_inner_text {
+    color: #8d8f91;
+    font-size: 21px;
+}
+.tab_content_row {
+    align-items: center;
+}
+.counter {
+    color: #1ba672;
+    font-size: 40px;
+    font-weight: 700;
+}
+.counter-box p {
+    color: #8d8f91;
+    font-size: 19px;
+}
+.counter_container {
+    padding: 50px;
+}
+.counter-box {
+    text-align: center;
+}
+.about-card-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #525252;
+}
+.card-date {
+    color: #8d8f91;
+    font-size: 16px;
+}
+.read_more {
+    color: #ffffff;
+    background-color: orangered;
+}
+.read_btn_div {
+    text-align: center;
+    margin-top: 10px;
+}
+.img-bg {
+    background-color: black;
+    border-radius: 38px;
+    line-height: 55px;
+    padding: 60px;
+}
+.swiggster {
+    font-size: 24px;
+    color: white;
+}
+.careers {
+    font-size: 18px;
+    color: orangered;
+}
+.tab_content_row img {
+    width: -webkit-fill-available;
+    max-height: 518px;
+    height: auto;
+}
+.vidio_div .col {
+    display: flex;
+    justify-content: center;
+}
+.bucket_img img {
+    width: -webkit-fill-available;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    .hiding_border {
+        border-right: none !important;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .bucket_img {
+        display: none !important;
+    }
+    .about_swiggy {
+        margin-top: 22px;
+    }
+    .nav_img {
+        display: none;
+    }
+    .middle_col {
+        width: auto;
+        padding-left: 30px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .side_nav_img {
+        display: none;
+    }
+    .middle_col {
+        text-align: center;
+    }
+}
+.side_img {
+    height: 120px;
+}
+.members_container span .btn {
+    margin-left: 60px;
+}
+.members_row {
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.members_inner_row {
+    max-width: max-content;
+    width: auto;
+}
+.member {
+    width: auto;
+}
+.member .card-body .btn {
+    border-radius: 27px;
+    background-color: darkgray;
+    border: none;
+}
+.about_us_page .container {
+    margin-top: 50px;
+}
+.member .card {
+    border: none;
+}
+.members_container .modal-dialog {
+    max-width: 1088px !important;
+    width: auto;
+}
+.member_bio {
+    overflow-y: scroll;
+    height: 200px;
+    color: #8d8f91;
+    font-size: 16px;
+}
+.members_container .modal-header {
+    border: none !important;
+}
+.members_container .modal-header .btn-close {
+    background-color: #fe5005;
+    border-radius: 24px;
+}
+
+.cards_container .card {
+    box-shadow: 0px 5px 8px 0px #1b1e2414 !important;
+}
+.about_us_page .btn:hover {
+    background-color: orangered;
+}
+.about_us_page .card:hover .btn {
+    background-color: orangered;
+}
+.cards_container .card img {
+    transition: transform 0.5s ease;
+}
+.swiggy_boy {
+    max-height: 518px;
+}
+
+.second_container .section {
+    display: none;
+}
+.cards_container .card_section{
+    display: none;
+}
+.cards_container .active {
+    display: block;
+}
+.members_container .member_section  {
+    display: none;
+}
+.members_container .member_section .active {
+    display: block;
+}
+
+.cards_container .card:hover img {
+    transform: scale(1.1);
+}
+.cards_container .card {
+    position: relative;
+    overflow: hidden;
+}
+.tab_button,
+.card_btn,
+.member_btn {
+    background-color: transparent;
+    color: #a7a0a0;
+    height: 55px;
+    width: 170px;
+    border-width: thin;
+    border-radius: 34px;
+    border-color: gray;
+}
+.second_container .tab_row {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tab_row div {
+    width: auto;
+}
+.tab_row .active_button,
+.active_btn,
+.active_member_btn {
+    background-color: orangered;
+    color: white;
+    border-color: transparent;
+}
+.swiggy_vidio {
+    width: -webkit-fill-available;
+    max-width: 820px;
+}
+
+@media screen and (max-width: 992px) {
+    .tab_button, .member_btn, .card_btn {
+        height: auto;
+        width: auto;
+        padding: 5px;
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 400px) {
+    .tab_row {
+        justify-content: left !important;
+    }
+     
+}

@@ -1,0 +1,441 @@
+.navbar {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+.about_us_navbar {
+    background-color: white;
+    
+}
+.about_us_navbar .navbar-container {
+    justify-content: normal;
+}
+
+.about_us_navbar .swiggy-logo {
+    margin-left: -31px;
+    height: 45px;
+    transition: transform 0.2s ease;
+}
+.about_us_navbar .swiggy-logo:hover {
+    height: 50px;
+    transform: scale(1.1);
+}
+
+.nav-home {
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #3d4152;
+    font-weight: 800;
+    margin-right: 11px;
+    border-bottom: black;
+
+    font: 14px;
+}
+
+.about_us_navbar .nav-link {
+    color: #464a5a;
+
+    font-size: 14px Proximanova, aerial;
+
+    letter-spacing: 0px;
+}
+
+.nav-home:hover .dropdown {
+    color: #93959f;
+}
+
+.nav-icons:hover,
+.nav-home:hover,
+.nav-link:hover {
+    color: orangered !important;
+}
+
+.about_us_navbar .nav-item:hover .nav-link a,
+.nav-item:hover .nav-link svg,
+.about_us_navbar .nav-item:hover.nav-link a button {
+    color: orangered !important;
+    fill: orangered;
+}
+.modal.fade .modal-dialog {
+    transition: none;
+    transform: none;
+}
+
+.navbar-nav {
+    width: 100%;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.swiggy-icon {
+    margin-right: 40px;
+}
+
+.modal1-content {
+    left: 0 !important;
+    top: 0 !important;
+    right: auto !important;
+    transform: translate(0%, 0px) !important;
+    transition: transform 0.3s ease-out !important;
+    height: 100% !important;
+    overflow-y: scroll !important;
+    position: fixed;
+    width: auto;
+    padding-left: 40px;
+}
+
+.modal1-header {
+    display: block;
+    border: none;
+    background-color: white;
+}
+
+.modal1-header .btn-close {
+    margin-left: -28px;
+}
+.modal-backdrop{
+    z-index: auto;
+}
+
+
+.modal1-header .border {
+    margin-left: -23px;
+}
+
+.modal1-content .sticky-top {
+    margin-left: inherit;
+}
+
+
+.modal1-content .modal-body .border {
+    padding: 35px;
+    height: max-content;
+}
+
+.modal1-content .modal-body {
+    margin-bottom: 92px;
+    margin-right: 0;
+}
+
+.modal1-content .modal1-header .border {
+    padding: 35px;
+    height: max-content;
+
+    box-shadow: rgba(2, 6, 12, 0.04) 0px 8px 12px;
+}
+
+.modal1-content .modal-body {
+    display: flex;
+}
+
+.address-type {
+    font-size: 16px;
+    font-weight: 500;
+    color: #282c3f;
+}
+
+.modal1-content .modal-body button {
+    border: none;
+    color: #5d8ed5;
+
+    padding-bottom: 20px;
+    margin-left: -6px;
+    margin-top: 15px;
+
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: transparent;
+}
+ 
+
+.modal1-content .modal-body button:hover {
+    font-weight: 700 !important;
+}
+
+.address-type:hover {
+    color: orangered;
+}
+
+.modal1-content svg {
+    margin-left: -21px;
+    margin-top: -3px;
+}
+
+.saved-address {
+    font-size: 13px;
+    color: #93959f;
+
+    padding-top: 5px;
+}
+
+.about_us_navbar .dropdown {
+    width: 163px; /* Fixed width to limit the content */
+    white-space: nowrap;
+    overflow: hidden; /* Hide the overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+    font-size: 14px !important; /* Ensure font-size is applied */
+    margin-top: 2px;
+    /* margin-right: 28px; */
+    color: #686b78;
+    font-weight: 400 !important;
+    display: block; /* Make sure it behaves as a block-level element */
+}
+
+.navbar-container .dropdown:hover {
+    color: #93959f;
+}
+
+.d-flex:hover {
+    cursor: pointer;
+    border-bottom: burlywood;
+}
+
+.nav-icons {
+    margin-right: 10px;
+    margin-top: -2px;
+    color: black;
+}
+
+footer {
+    background-color: rgb(2, 6, 12);
+}
+
+footer p {
+    color: rgb(255 255 255 / 60%);
+    font-size: 14px Gilroy;
+}
+
+footer h6 {
+    color: rgb(255 255 255 / 92%);
+    font-size: 18px Gilroy_Bold;
+    font-weight: 700 !important;
+    letter-spacing: -0.3px;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.footer-container {
+    max-width: 1104px;
+}
+
+.navbar-collapse {
+    max-width: 805px;
+    background-color: white;
+    border-radius: 0px;
+}
+
+.dropdown-icon {
+    color: orangered;
+}
+
+.badge {
+    color: orange;
+    margin-left: -6px;
+    margin-top: -7px;
+    font-size: x-small;
+    position: absolute;
+}
+
+.footer-text {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: Gilroy;
+    color: rgb(2 6 12 / 75%);
+}
+
+.upper-footer {
+    min-height: 100px;
+    align-items: center !important;
+    background-color: rgb(240, 240, 245);
+}
+
+.upper-footer-row {
+    padding-top: 20px;
+}
+
+.nav-home {
+    background-color: transparent;
+    border: none;
+}
+
+.nav-home .home {
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    margin-right: 8px;
+}
+
+.loginbtn,
+.signIn_btn {
+    border: none;
+    background: transparent;
+    color: orangered;
+}
+.modal_signUp,
+.modal_login {
+    font-size: 30px;
+    font-weight: 500;
+}
+.signUp_section form .mb-3 a {
+    color: #5d8ed5;
+    text-decoration: none;
+}
+.sign_in_btn {
+    border: none;
+    background: transparent;
+    margin-left: -11px;
+    color: #464a5a;
+    font-weight: 700;
+}
+.signUp-item .modal_signUp {
+    color: black;
+}
+.signUp-item .modal_signUp:hover {
+    color: black;
+}
+.signUp-item .signUp_div {
+    width: auto;
+}
+.signUp-item form p {
+    font-size: 12px;
+    color: #686b78;
+    margin-top: 6px;
+    font-weight: 500;
+}
+.signIn_section .row {
+    margin-top: 27px;
+}
+.signUp-item form p {
+    max-width: 370px;
+}
+.cart_hidden_div {
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-left: inherit;
+    background-color: white;
+
+    height: auto;
+    width: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px;
+    border-top: 2px solid orangered;
+}
+.cart_empty {
+    font-size: 30px;
+    font-weight: 700;
+    color: #464a5a;
+}
+.cart_inner {
+    font-size: 16px;
+    color: #93959f;
+}
+.about_us_navbar .nav-item:hover .cart_hidden_div {
+    display: block;
+}
+.signUp-item .signUp_modal {
+    right: 0 !important;
+    top: 0 !important;
+    left: auto !important;
+    transform: translate(0%, 0px) !important;
+    transition: transform 0.3s ease-out !important;
+    height: 100% !important;
+    overflow-y: scroll !important;
+    position: fixed;
+    width: auto;
+    padding-right: 40px;
+}
+.signIn_section {
+    display: none;
+}
+.signIn_modal .modal-header {
+    border: none;
+}
+.signIn_modal .modal-header button {
+    margin-left: 0px;
+}
+.signIn_modal {
+    right: 0 !important;
+    top: 0 !important;
+    left: auto !important;
+    transform: translate(0%, 0px) !important;
+    transition: transform 0.3s ease-out !important;
+    height: 100% !important;
+    overflow-y: scroll !important;
+    position: fixed;
+    width: auto;
+    padding-right: 40px;
+}
+.signIn_modal .modal-body form .form-control {
+    border-radius: 0px;
+    height: 65px;
+}
+.signUp-item .login_btn,
+.signUp-item .continue_btn {
+    background-color: orangered;
+    color: white;
+    border-color: transparent;
+    border-radius: 0px;
+    height: 45px;
+}
+.about_us_navbar .navbar-options {
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cart_hidden_div {
+        top: auto;
+        width: 154px;
+        height: auto;
+    }
+    .cart_empty {
+        font-size: 20px;
+    }
+    .cart_inner {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .nav-home {
+        width: 150px;
+    }
+
+    .nav-home .home {
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .upper-footer-row .col-lg-6 {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .about_us_navbar .navbar-collapse {
+        background-color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .navbar-nav {
+        position: absolute !important;
+        background-color: white;
+        top: 100% !important;
+        padding-left: 17px;
+    }
+}

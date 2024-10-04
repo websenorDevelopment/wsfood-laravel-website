@@ -1,0 +1,121 @@
+.containerNav .swiggy_logo {
+    width: 135px;
+}
+.containerNav .user_icon {
+    height: 36px;
+    margin-left: 2px;
+    background-color: ;
+    fill:white;
+}
+.containerNav .user_div {
+    background-color: rgb(72, 71, 74);
+    padding: 7px;
+    border-radius: 26px;
+    width: 50px;
+}
+.containerNav .search_div {
+    width: 631px;
+    background-color: rgb(240, 240, 245);
+    height: 55px;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 7px;
+}
+.search_div .inner_text{
+    font-weight: 200;
+    font-size: 18px;
+    color:rgb(2 6 12 / 45%);
+    
+}
+.food_cards_container .heading{
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 15px;
+}
+.food_cards_container .home_row{
+    margin-top: 50px;
+}
+.food_cards_container .list-options{
+    margin-left: -27px !important;
+
+}
+.nav-home {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #3d4152;
+    font-weight: 800;
+    margin-right: 11px;
+    border-bottom: black;
+    margin-top: 8px;
+    font: 20px;
+}
+.text-container .heading{
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    
+ color:   rgb(2 6 12 / 60%);
+ font-weight: 700;
+}
+.text-container .inner_text{
+    font-size: 16px;
+    margin-top: 8px;
+    color:rgb(2 6 12 / 60%);
+}
+.text-container .ellipsis{
+    
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+.text-container {
+    border-radius: 20px;
+    padding: 30px;
+    /* max-height: 200px; */
+
+}
+footer{
+    background-color: rgb(240, 240, 245) !important;
+}
+.text-container .see_more{
+    color:orangered;
+    font-size: 14px;
+    font-weight: 500;
+}
+.containerNav {
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav-home .home {
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    letter-spacing: 0px;
+}
+.dropdown-icon {
+    color: orangered;
+}
+.dropdown {
+    width: 163px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px !important;
+    margin-top: 1px;
+    letter-spacing: -0.3px;
+    color: #686b78;
+    font-weight: 400 !important;
+    display: block;
+    letter-spacing: 0px;
+}
+.search_icon {
+    height: 17px;
+}

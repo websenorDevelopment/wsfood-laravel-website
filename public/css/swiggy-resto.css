@@ -1,0 +1,317 @@
+.home_container .home {
+    font-size: 10px;
+    margin-bottom: 30px;
+    color: #93959f;
+}
+.order-details-container .resto-name {
+    font-weight: 800;
+    font-size: 24px;
+    padding-bottom: 9px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+    padding-left: 20px;
+}
+.order-details-container .border {
+    background-color: white;
+    padding: 17px;
+    border-radius: 23px;
+}
+.order-details-container .border a {
+    color: orangered;
+    font-weight: 700;
+    font-size: 14px;
+}
+.order-details-container .rating {
+    font-weight: 700;
+    font-size: 16px;
+}
+.offers {
+    color: rgb(2 6 12 / 45%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.order-details-container .gradient_bg {
+    background: linear-gradient(
+        rgb(255, 255, 255) -6.71%,
+        rgb(235, 235, 242) 56.19%,
+        rgb(223, 223, 231) 106.56%
+    );
+    padding: 17px;
+    border-radius: 30px;
+}
+.main_container {
+    max-width: 900px;
+    margin-top: 29px;
+}
+.order-details-container .outlet {
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    color: rgba(2, 6, 12, 0.92);
+}
+.order-details-container .outlet .add_span {
+    color: #93959f;
+}
+.order-details-container .free-delivery {
+    color: orangered;
+    font-weight: 700;
+    font-size: 14px;
+}
+.offers_container .deals {
+    font-weight: 800;
+    font-size: 20px;
+}
+.offers_container .deals_div {
+    padding-top: 27px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+.menu_container .menu_srch_btn {
+    width: -webkit-fill-available;
+    border: none;
+    border-radius: 9px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+.menu_container .menu_srch_btn svg {
+    fill: rgb(2 6 12 / 60%);
+}
+.menu_container .menu_srch_btn div {
+    color: rgb(2 6 12 / 60%);
+}
+.togglers {
+    gap: 15px;
+
+    padding-bottom: 20px;
+}
+.top_pick_row .d-flex {
+    margin-top: 150px;
+}
+.top_pick_row {
+    gap: 15px;
+    overflow-x: auto !important;
+    scrollbar-width: none;
+    max-width: max-content !important;
+    width: auto;
+}
+.top_pick_item {
+    height: 289px;
+    min-width: 302px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    color: white;
+    padding-top: 39px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.menu_item_container {
+    border-top: 16px solid rgba(2, 6, 12, 0.0509803922);
+
+    margin-top: 60px;
+}
+.item_detail .item-btn {
+    position: absolute;
+    margin-left: 26px;
+    margin-top: -16px;
+    text-align: center;
+}
+.item_detail .item-img {
+    max-height: 148px;
+    max-width: 157px;
+    width: auto;
+    border-radius: 20px;
+    position: relative;
+}
+.star-icon {
+    fill: rgb(17, 102, 73);
+    height: 12px;
+    margin-top: -4px;
+}
+.menu_item_container .item_type {
+    color: rgba(2, 6, 12, 0.75);
+    font-size: 18px;
+    font-weight: 700;
+}
+.item_detail {
+    padding-top: 25px;
+    padding-bottom: 54px;
+}
+.item_detail .custm {
+    font-weight: 200;
+    color: rgb(2 6 12 / 45%);
+    font-size: 13px;
+}
+.item_detail .item-count {
+    color: rgb(2 6 12 / 60%);
+    font-weight: 700;
+    font-size: 13px;
+}
+.item_detail .item-des {
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(2 6 12 / 60%);
+}
+.item_detail .item-rating {
+    color: rgb(17, 102, 73);
+    font-weight: 700;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+.item_detail .item-price {
+    font-weight: 700;
+}
+.menu_item_container .item_name {
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.top_pick_item .item {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.togglers .veg_border {
+    padding-top: 10px !important;
+    padding-left: 14px !important;
+    border-radius: 19px !important;
+    box-shadow: rgb(2 6 12 / 4%) !important;
+}
+.repeat {
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.repeat_item {
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+}
+.menu_repeat_container .border {
+    width: 277px;
+    padding-left: 9px;
+    border-radius: 9px;
+}
+.top_picks_container {
+    border-top: 16px solid rgba(2, 6, 12, 0.0509803922);
+    margin-top: 16px;
+}
+.repeat_add {
+    font-weight: 700;
+
+    background-color: white;
+    border-color: #dcd7d7;
+    width: 95px;
+    border-radius: 10px;
+    height: 35px;
+    color: green;
+    box-shadow: 1px 3px 4px #eae3e3;
+}
+.togglers .best_btn button {
+    border-color: none;
+    border: none;
+    background-color: transparent;
+}
+.togglers .best_btn {
+    border-radius: 19px !important;
+    box-shadow: rgb(2 6 12 / 4%) !important;
+}
+.menu_container .menu {
+    padding-top: 40px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: rgb(2 6 12 / 60%);
+}
+.offers_div .border {
+    min-width: 300px;
+    align-items: center;
+    padding-left: 10px;
+
+    border-radius: 18px;
+    height: 70px;
+}
+.offers_div .flatOff {
+    color: rgba(2, 6, 12, 0.92);
+    font-weight: 800;
+    font-size: 18px;
+}
+.offers_div {
+    gap: 20px;
+    scrollbar-width: none;
+    overflow-x: auto;
+    max-width: max-content;
+    width: auto;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    /* height: 34px; */
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    height: 10px;
+    width: 45px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    border: solid 1px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    top: -6px;
+}
+
+input:checked + .slider1 {
+    background-color: rgb(57, 156, 57);
+}
+input:checked + .slider2 {
+    background-color: #ef3f3f;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

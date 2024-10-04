@@ -1,0 +1,114 @@
+.about_us_nav {
+    background-color: orangered;
+}
+
+.dropdownn:hover .dropdown-menu {
+    display: block !important;
+}
+
+@media screen and (max-width: 1022px) {
+    .about_us_nav .container {
+        max-width: 970px;
+    }
+}
+
+.about_us_nav .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.about_us_nav ul {
+    border-radius: 0px;
+}
+
+.about_us_nav ul .btn,
+.nav-link {
+    border: none;
+    color: white !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about_us_nav ul li {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: white;
+}
+
+footer p {
+    margin-top: 16px;
+    padding-right: 11px;
+}
+
+footer h6 {
+    color: black;
+    font-size: 18px Gilroy_Bold;
+    font-weight: 700 !important;
+    letter-spacing: -0.3px;
+}
+
+footer svg {
+    height: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .footer-text {
+        text-align: center !important;
+    }
+}
+
+.footer-text {
+    font-weight: 800;
+    font-family: Gilroy;
+    text-align: right;
+}
+
+.text-reset {
+    text-decoration: none;
+    color: #02060c61 !important;
+}
+.text-reset:hover {
+    color: black !important;
+}
+
+.upper_footer {
+    background-color: black;
+    margin-top: 30px;
+}
+
+.upper_footer_inner_text {
+    font-size: 14px;
+    color: gray;
+}
+
+.upper_footer_text {
+    font-size: 29px;
+    color: white;
+    font-weight: 700;
+}
+
+.about_upper_footer_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.about_upper_footer_row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.scanner_img {
+    max-height: 185px;
+    max-width: 298px;
+    width: -webkit-fill-available;
+    height: auto;
+}
